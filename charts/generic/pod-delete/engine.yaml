@@ -2,10 +2,10 @@ apiVersion: litmuschaos.io/v1alpha1
 kind: ChaosEngine
 metadata:
   name: nginx-chaos
-  namespace: default
+  namespace: litmus
 spec:
   appinfo:
-    appns: 'default'
+    appns: 'openpass'
     applabel: 'app=nginx'
     appkind: 'deployment'
   # It can be active/stop
